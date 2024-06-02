@@ -4,6 +4,8 @@ import {
   ResizablePanelGroup,
 } from "@/components/ui/resizable";
 import { TestCasesTabs } from "./testcases";
+import { Badge, badgeVariants } from "@/components/ui/badge"
+import Link from "next/link";
 
 export function IDE() {
   // const ref = useRef<HTMLDivElement>(null);
@@ -33,8 +35,17 @@ export function IDE() {
       className="max-w-full h-screen rounded-lg border"
     >
       <ResizablePanel defaultSize={50} className="overflow-auto">
-        <div className="flex h-[800px] items-center justify-center p-6">
-          <span className="font-semibold">One</span>
+        <div className="flex h-[800px] flex-col p-6">
+          <div className="text-3xl font-bold mb-5">Question Title</div>
+          <div>
+          <Badge variant="outline">Easy</Badge>
+          <Link href="#" className={badgeVariants({ variant: "outline" })}>Hint</Link>
+
+          </div>
+
+          <div className="my-5">
+            Detailed Question
+          </div>
         </div>
       </ResizablePanel>
       <ResizableHandle withHandle />
