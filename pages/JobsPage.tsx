@@ -3,7 +3,7 @@ import { FilterCard } from "@/components/FilterCard";
 import { DescriptionCard } from "@/components/DescriptionCard";
 import { JobList } from "@/components/JobList";
 
-export function JobsPage() {
+export default function JobsPage() {
   return (
     <div className="w-screen flex flex-col">
       <div className="w-full p-2">

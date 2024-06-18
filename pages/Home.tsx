@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 
-export function Home() {
+export default function Home() {
   return (
     <>
       <Hero />

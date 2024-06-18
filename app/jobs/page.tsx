@@ -1,4 +1,4 @@
-import { JobsPage } from "@/pages/JobsPage";
+import JobsPage from "@/pages/JobsPage";
 
 export default function Jobs() {
   return (
