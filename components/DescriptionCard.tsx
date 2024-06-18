@@ -83,6 +83,54 @@ export function DescriptionCard() {
                 Design, develop, and maintain scalable and efficient server-side
                 applications using Node.js
               </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
+              <li>
+                Design, develop, and maintain scalable and efficient server-side
+                applications using Node.js
+              </li>
             </div>
           </div>
           <div className="flex gap-3">
