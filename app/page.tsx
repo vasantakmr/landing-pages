@@ -3,7 +3,9 @@ import { Home as HomePage } from "@/pages/Home";
 export default function Home() {
   return (
     <main>
-      <HomePage />
+      <div className="flex min-h-screen w-full flex-col">
+        <HomePage />
+      </div>
     </main>
   );
 }
