@@ -28,13 +28,11 @@ export function Dashboard() {
             x-chunk="dashboard-04-chunk-0"
           >
             <Link href="#" className="font-semibold text-primary">
-              General
+              All
             </Link>
-            <Link href="#">Security</Link>
-            <Link href="#">Integrations</Link>
-            <Link href="#">Support</Link>
-            <Link href="#">Organizations</Link>
-            <Link href="#">Advanced</Link>
+            <Link href="#">Internships</Link>
+            <Link href="#">Tech</Link>
+            <Link href="#">Non-Tech</Link>
           </nav>
           <div className="grid gap-6">
             <Card x-chunk="dashboard-04-chunk-1">
@@ -43,12 +41,10 @@ export function Dashboard() {
                 <CardDescription>Job description.</CardDescription>
               </CardHeader>
               <CardContent>
-                <form>
-                  <Input placeholder="Store Name" />
-                </form>
+                Some Other description
               </CardContent>
               <CardFooter className="border-t px-6 py-4">
-                <Button>Save</Button>
+                <Button>Apply</Button>
               </CardFooter>
             </Card>
           </div>
