@@ -1,11 +1,11 @@
-import Image from "next/image";
-import { IDE } from "./ide";
-import { Dashboard } from "./dashboard";
+import Home from "@/pages/Home";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-8 py-24">
-      <Dashboard/>
+    <main>
+      <div className="flex min-h-screen w-full flex-col">
+        <Home />
+      </div>
     </main>
   );
 }
