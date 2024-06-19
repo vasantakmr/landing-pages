@@ -1,3 +1,4 @@
+"use client";
 import {
   Card,
   CardContent,
@@ -8,18 +9,39 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
 
-export function DescriptionCard() {
+export function DescriptionCard({ id }: { id: string }) {
+  const [data, setData] = useState<any>(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "https://raw.githubusercontent.com/vasantakmr/gurucodes-data/main/jobs/index.json"
+        );
+        const result = await response.json();
+        const filteredJob = result.find((item: any) => item.jobId === id);
+        setData(filteredJob);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, [id]);
   return (
     <>
       <Card>
         <CardHeader>
-          <CardDescription>#logo# facebook, inc</CardDescription>
+          <CardDescription>#logo# {data?.employerName}</CardDescription>
           <div className="flex items-center justify-between">
-            <CardTitle>Backend Developer (Rust)</CardTitle>
+            <CardTitle>{data?.jobTitle}</CardTitle>
             <div className="flex gap-2">
               <Button>copy</Button>
-              <Button>Apply Now</Button>
+              <Button>
+                <a href={data?.jobApplyLink}>Apply Now</a>
+              </Button>
             </div>
           </div>
           <CardDescription>🌍 remote, china</CardDescription>

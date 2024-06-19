@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import JobCard from "./JobCard";
 import { Badge } from "./ui/badge";
+import Link from "next/link";
 
 type Job = {
   jobId: string;
@@ -20,14 +21,14 @@ export async function JobList() {
     "https://raw.githubusercontent.com/vasantakmr/gurucodes-data/main/jobs/index.json"
   );
   const jobsData = await res.json();
-  console.log(jobsData);
   return (
     <div>
       {jobsData.map((job: Job) => {
         return (
-          <div
+          <Link
             key={job?.jobId}
             className="cursor-pointer flex gap-5 p-3 border-b-2"
+            href={`/jobs/${job.jobId}`}
           >
             <div className="flex items-center w-14 h-14">
               <img src={job?.employerLogo} alt="logo" />
@@ -44,7 +45,7 @@ export async function JobList() {
               </div>
               <div>6h</div>
             </div>
-          </div>
+          </Link>
         );
       })}
       {/* <JobCard />
