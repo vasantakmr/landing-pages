@@ -16,7 +16,7 @@ type Job = {
   jobLocation: string;
 };
 
-export async function JobList() {
+export function JobList() {
   const [jobsData, setJobsData] = useState([]);
   useEffect(() => {
     fetchData();
