@@ -1,6 +1,6 @@
-"use server";
+"use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import JobCard from "./JobCard";
 import { Badge } from "./ui/badge";
 import Link from "next/link";
@@ -17,10 +17,17 @@ type Job = {
 };
 
 export async function JobList() {
-  const res = await fetch(
-    "https://raw.githubusercontent.com/vasantakmr/gurucodes-data/main/jobs/index.json"
-  );
-  const jobsData = await res.json();
+  const [jobsData, setJobsData] = useState([]);
+  useEffect(() => {
+    fetchData();
+  }, []);
+  async function fetchData() {
+    const res = await fetch(
+      "https://raw.githubusercontent.com/vasantakmr/gurucodes-data/main/jobs/index.json"
+    );
+    const data = await res.json();
+    setJobsData(data);
+  }
   return (
     <div>
       {jobsData.map((job: Job) => {
