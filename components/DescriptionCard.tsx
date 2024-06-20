@@ -52,7 +52,7 @@ export function DescriptionCard({ id }: { id: string }) {
             <div className="flex items-center justify-between">
               <CardTitle>{data?.jobTitle}</CardTitle>
               <div className="flex gap-2">
-                <ShareButton />
+                <ShareButton id={id} />
                 <Button className="hidden md:block">
                   <a href={data?.jobApplyLink}>Apply Now</a>
                 </Button>
