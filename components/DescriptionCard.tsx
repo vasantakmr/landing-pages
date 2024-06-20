@@ -11,6 +11,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
+import ShareButton from "./ShareButton";
+
 export function DescriptionCard({ id }: { id: string }) {
   const [data, setData] = useState<any>(null);
 
@@ -30,6 +32,7 @@ export function DescriptionCard({ id }: { id: string }) {
 
     fetchData();
   }, [id]);
+
   return (
     <>
       <Card>
@@ -38,7 +41,7 @@ export function DescriptionCard({ id }: { id: string }) {
           <div className="flex items-center justify-between">
             <CardTitle>{data?.jobTitle}</CardTitle>
             <div className="flex gap-2">
-              <Button>copy</Button>
+              <ShareButton />
               <Button>
                 <a href={data?.jobApplyLink}>Apply Now</a>
               </Button>
