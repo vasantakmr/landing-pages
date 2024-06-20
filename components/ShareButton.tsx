@@ -1,6 +1,7 @@
 import { Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+// TODO: change the website name with current link
 export const ShareButton = () => {
   const shareContent = () => {
     if (navigator.share) {
