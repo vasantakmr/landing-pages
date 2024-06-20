@@ -34,11 +34,15 @@ export function JobList() {
         return (
           <Link
             key={job?.jobId}
-            className="cursor-pointer flex gap-5 p-3 border-b-2"
+            className="cursor-pointer flex gap-5 p-3 border-b-2 hover:bg-slate-200 dark:hover:bg-slate-900"
             href={`/jobs/${job.jobId}`}
           >
-            <div className="flex items-center w-14 h-14">
-              <img src={job?.employerLogo} alt="logo" />
+            <div className="flex items-center w-14 h-14 mt-2">
+              <img
+                src={job?.employerLogo}
+                alt="logo"
+                className="rounded-full"
+              />
             </div>
             <div className="w-full flex items-center justify-between">
               <div className="flex flex-col gap-2">

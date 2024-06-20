@@ -1,7 +1,6 @@
 import { Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// TODO: change the website name with current link
 export const ShareButton = () => {
   const shareContent = () => {
     if (navigator.share) {
@@ -9,7 +8,7 @@ export const ShareButton = () => {
         .share({
           title: "Example Title",
           text: "Check out this amazing content!",
-          url: "https://example.com",
+          url: window.location.href,
         })
         .then(() => console.log("Content shared successfully"))
         .catch((error) => console.error("Error sharing content:", error));
@@ -19,7 +18,7 @@ export const ShareButton = () => {
   };
 
   return (
-    <Button onClick={shareContent}>
+    <Button variant="outline" onClick={shareContent}>
       <Share2 />
     </Button>
   );

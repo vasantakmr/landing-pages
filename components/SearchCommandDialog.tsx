@@ -23,6 +23,8 @@ import {
 import { Button } from "./ui/button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { Search } from "lucide-react";
+import { Input } from "./ui/input";
 
 export function SearchCommandDialog() {
   const [open, setOpen] = React.useState(false);
@@ -49,18 +51,18 @@ export function SearchCommandDialog() {
           setOpen(true);
         }}
       >
-        <Button
-          variant="outline"
+        <span className="text-sm absolute left-2.5 top-2.5 h-4  text-muted-foreground">
+          Press{" "}
+          <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+            <span className="text-xs">⌘</span>/
+          </kbd>
+          to search
+        </span>
+        <Input
+          type="search"
+          placeholder=""
           className="pl-8 sm:w-[300px] md:w-[200px] lg:w-[300px]"
-        >
-          <span className="text-sm text-muted-foreground absolute left-2.5 top-2.5 h-4  text-muted-foreground">
-            Press{" "}
-            <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
-              <span className="text-xs">⌘</span>/
-            </kbd>
-            to search
-          </span>
-        </Button>
+        />
       </div>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Type a command or search..." />
