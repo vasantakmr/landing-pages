@@ -44,6 +44,13 @@ export function Navbar() {
             <Link href="/" className="hover:text-foreground">
               Home
             </Link>
+
+            <Link
+              href="/learn"
+              className="text-muted-foreground hover:text-foreground"
+            >
+              Learn
+            </Link>
             <Link
               href="/jobs"
               className="text-muted-foreground hover:text-foreground"
