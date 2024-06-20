@@ -19,7 +19,7 @@ export const ShareButton = () => {
   };
 
   return (
-    <Button onClick={shareContent}>
+    <Button variant="outline" onClick={shareContent}>
       <Share2 />
     </Button>
   );

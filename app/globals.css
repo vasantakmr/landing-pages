@@ -74,3 +74,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+@media (min-width: 768px) {
+  .joblist {
+    width: 500px; /* Adjust as needed */
+  }
+  .filtercard {
+    width: 500px;
+  }
+}
