@@ -3,6 +3,7 @@
 import { Package2 } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import LearnMenuItem from "./LearnMenuItem";
 
 export function Links() {
   return (
@@ -37,6 +38,13 @@ export function Links() {
         className="text-muted-foreground transition-colors hover:text-foreground"
       >
         Sheet
+      </Link>
+
+      <Link
+        href="/learn"
+        className="text-muted-foreground hover:text-foreground"
+      >
+        <LearnMenuItem />
       </Link>
     </nav>
   );

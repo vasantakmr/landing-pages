@@ -83,7 +83,7 @@ export function SearchCommandDialog() {
             </Link>
             <CommandItem onSelect={() => setOpen(false)}>
               <Calculator className="mr-2 h-4 w-4" />
-              <span>S</span>
+              <span>Sheet</span>
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />

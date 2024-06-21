@@ -18,15 +18,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
-          {children}
+          <div className="transition-colors duration-1000">
+            <Navbar />
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
