@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import { MousePointerClick } from "lucide-react";
 
 import ShareButton from "./ShareButton";
+import Link from "next/link";
 
 export function DescriptionCard({ id }: { id: string }) {
   const [data, setData] = useState<any>(null);
@@ -54,7 +55,13 @@ export function DescriptionCard({ id }: { id: string }) {
               <div className="flex gap-2">
                 <ShareButton />
                 <Button className="hidden md:block">
-                  <a href={data?.jobApplyLink}>Apply Now</a>
+                  <a
+                    href={data?.jobApplyLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Apply Now
+                  </a>
                 </Button>
               </div>
             </div>
@@ -121,7 +128,9 @@ export function DescriptionCard({ id }: { id: string }) {
         </Card>
       </div>
       <div className="md:hidden flex sticky bottom-0 justify-center p-4 bg-blue-800  w-screen gap-2">
-        <a href={data?.jobApplyLink}>Apply Now</a>
+        <a href={data?.jobApplyLink} target="_blank" rel="noopener noreferrer">
+          Apply Now
+        </a>
         <MousePointerClick />
       </div>
     </>
