@@ -37,7 +37,7 @@ export function DescriptionCard({ id }: { id: string }) {
   return (
     <>
       <div className="px-4 pt-4">
-        <Card>
+        <Card className="border-none">
           <CardHeader>
             <div className="flex gap-3 items-center pb-3">
               <div className="flex items-center w-9 h-9">
