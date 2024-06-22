@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Link from "next/link";
-import modulePic from "@/public/intro2.svg";
+import modulePic from "../public/img/intro2.svg";
 import Image from "next/image";
 
 type ModuleCard = {
