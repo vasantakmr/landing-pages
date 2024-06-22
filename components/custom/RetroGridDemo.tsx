@@ -12,7 +12,7 @@ const RetroGridDemo = () => {
         Master C++ Programming & DSA
       </div>
       <div>
-        <span className="pointer-events-none  whitespace-pre-wrap   bg-clip-text text-center text-5xl font-bold leading-tight	 tracking-tighter text-white ">
+        <span className="pointer-events-none  whitespace-pre-wrap   bg-clip-text text-center text-5xl font-bold leading-tight	 tracking-tighter text-foreground ">
           Land Your Dream 
         </span>
         <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ff2975] to-[#8c1eff] bg-clip-text  text-5xl font-bold leading-tight	 tracking-tighter text-transparent">

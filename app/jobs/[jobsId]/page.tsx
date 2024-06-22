@@ -5,6 +5,5 @@ export default function JobDetails({ params }: { params: { jobsId: string } }) {
     <div className="flex flex-col justify-center w-full">
       <DescriptionCard id={params.jobsId} />
     </div>
-    // </div>
   );
 }
