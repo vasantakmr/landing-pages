@@ -61,6 +61,7 @@ export function Modules2() {
               {data.map((data) => {
                 return (
                   <ModuleCard
+                    key={data?.name}
                     name={data?.name}
                     description={data?.description}
                     chapters={data?.chapters}
