@@ -4,6 +4,7 @@ import { Package2 } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import LearnMenuItem from "./LearnMenuItem";
+import { NavbarItem } from "./NavbarItem";
 
 export function Links() {
   return (
@@ -15,37 +16,32 @@ export function Links() {
         <Package2 className="h-6 w-6" />
         <span className="sr-only">Acme Inc</span>
       </Link>
-      <Link
+      <NavbarItem
         href="/"
-        className="text-foreground transition-colors hover:text-foreground"
       >
         Home
-      </Link>
-      <Link
+      </NavbarItem>
+      <NavbarItem
         href="/jobs"
-        className="text-muted-foreground transition-colors hover:text-foreground"
       >
         Jobs
-      </Link>
-      <Link
+      </NavbarItem>
+      <NavbarItem
         href="/problems"
-        className="text-muted-foreground transition-colors hover:text-foreground"
       >
         Problems
-      </Link>
-      <Link
+      </NavbarItem>
+      <NavbarItem
         href="/sheet"
-        className="text-muted-foreground transition-colors hover:text-foreground"
       >
         Sheet
-      </Link>
+      </NavbarItem>
 
-      <Link
+      <NavbarItem
         href="/learn"
-        className="text-muted-foreground hover:text-foreground"
       >
         <LearnMenuItem />
-      </Link>
+      </NavbarItem>
     </nav>
   );
 }

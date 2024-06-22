@@ -20,6 +20,7 @@ import {
 import { ModeToggle } from "./ModeToggle";
 import { Links } from "./Links";
 import { SearchCommandDialog } from "./SearchCommandDialog";
+import { NavbarItem } from "./NavbarItem";
 
 export function Navbar() {
   return (
@@ -49,28 +50,25 @@ export function Navbar() {
                 <Package2 className="h-6 w-6" />
                 <span className="sr-only">Gurucodes Inc</span>
               </Link>
-              <Link href="/" className="hover:text-foreground">
+              <NavbarItem href="/">
                 Home
-              </Link>
+              </NavbarItem>
 
-              <Link
+              <NavbarItem
                 href="/learn"
-                className="text-muted-foreground hover:text-foreground"
               >
                 Learn
-              </Link>
-              <Link
+              </NavbarItem>
+              <NavbarItem
                 href="/jobs"
-                className="text-muted-foreground hover:text-foreground"
               >
                 Jobs
-              </Link>
-              <Link
+              </NavbarItem>
+              <NavbarItem
                 href="/problem"
-                className="text-muted-foreground hover:text-foreground"
               >
                 Problems
-              </Link>
+              </NavbarItem>
               <Link
                 href="/sheet"
                 className="text-muted-foreground hover:text-foreground"
