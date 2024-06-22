@@ -1,8 +1,7 @@
 "use client";
-import { Description } from "@radix-ui/react-dialog";
 import { useState } from "react";
 import { ModuleCard } from "./ModuleCard";
-export function Modules() {
+export function Modules2() {
   const [data, setData] = useState([
     {
       name: "Intro to Array",
@@ -50,16 +49,15 @@ export function Modules() {
       chapters: 3,
     },
   ]);
-
   return (
-    <>
+    <div className="flex flex-col w-full h-55 justify-center px-4">
       <div className="flex flex-col w-full h-55">
-        <h1 className="flex py-5 px-5 mx-2 font-semibold text-white-800">
+        <h1 className="flex justify-center py-5 px-5 mx-2font-semibold text-white-800">
           Learn DSA for placements
         </h1>
         <div className="flex">
-          <div className="flex overflow-x-scroll hide-scroll-bar">
-            <div className="flex flex-nowrap ml-2 ">
+          <div className="flex w-full">
+            <div className="flex px-4 flex-wrap m-2">
               {data.map((data) => {
                 return (
                   <ModuleCard
@@ -71,22 +69,8 @@ export function Modules() {
               })}
             </div>
           </div>
-          <div className=" flex justify-center items-center w-24">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="size-5"
-            >
-              <path
-                fillRule="evenodd"
-                d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
