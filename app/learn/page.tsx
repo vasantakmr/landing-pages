@@ -1,12 +1,17 @@
 import { TimeTaken } from "@/components/TimeTaken";
+import { Modules } from "@/components/Modules";
+
 export default function Learn() {
   return (
-    <div className="flex justify-center h-16 items-center bg-background w-full">
+    <div className="flex justify-center h-full items-center bg-background w-full px-4">
       <div
-        className="flex w-full items-center mt-2 gap-4 bg-background px-4 border"
+        className="flex flex-col w-full md:mt-2 gap-4 bg-background md:p-4"
         style={{ maxWidth: "1000px" }}
       >
-        {/* <TimeTaken /> */}
+        <Modules />
+        <Modules />
+        <Modules />
+        <Modules />
       </div>
     </div>
   );
