@@ -8,6 +8,7 @@ import { ModulesOverview } from "@/components/ModulesOverview";
 import { Bonuses } from "@/components/Bonuses";
 import VideoDemo from "@/components/landing/VideoDemo";
 import Mentor from "@/components/landing/Mentor";
+import GetCertified from "@/components/landing/GetCertified";
 
 export default function LandingPage() {
   return (
@@ -17,8 +18,9 @@ export default function LandingPage() {
       <VideoDemo />
       {/* <Testimonials /> */}
       <ModulesOverview />
+      <Mentor />
       <Bonuses />
-      {/* <Mentor /> */}
+      <GetCertified />
       <div className="sticky bottom-0 left-0 h-24 w-full bg-blue-600 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 flex items-center justify-between px-28 z-[1000]">
         <div>
           {/* <Image src=""></Image> */}
