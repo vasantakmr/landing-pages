@@ -53,7 +53,7 @@ const content = [
 ];
 export function ModulesOverview() {
   return (
-    <div className="p-10">
+    <div className="">
       <StickyScroll content={content} />
     </div>
   );
