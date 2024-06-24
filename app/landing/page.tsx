@@ -18,8 +18,8 @@ export default function LandingPage() {
       {/* <Testimonials /> */}
       <ModulesOverview />
       <Bonuses />
-      <Mentor />
-      <div className="sticky bottom-0 left-0 h-24 w-full bg-blue-600 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 flex items-center justify-between px-28">
+      {/* <Mentor /> */}
+      <div className="sticky bottom-0 left-0 h-24 w-full bg-blue-600 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 flex items-center justify-between px-28 z-[1000]">
         <div>
           {/* <Image src=""></Image> */}
           <p>DSA Master Class</p>
