@@ -2,12 +2,13 @@ import React from "react";
 import { Card } from "../ui/card";
 import { Crown, CircleCheck, Share2 } from "lucide-react";
 import ShimmerButton from "./ShimmerButton";
+import Image from "next/image";
 
 function GetCertified() {
   return (
     <div className="flex h-full w-full justify-center items-center">
-      <div className="h-[420px] w-[1140px] flex justify-center items-center flex-row">
-        <div className="flex flex-col justify-center w-[500px] h-full items-start md:pl-10">
+      <div className="h-[420px] w-full p-10 flex flex-wrap justify-center items-center ">
+        <div className="flex flex-col justify-center w-[500px] h-full items-start">
           <div className="text-4xl font-bold pb-6">
             Get <span className="text-orange-600">Certified</span>
           </div>
@@ -30,7 +31,9 @@ function GetCertified() {
           </div>
         </div>
         <div>
-          <Card className="w-[544px] h-[407px]"></Card>
+          <Card className="w-[544px] h-[386px]">
+            <Image width={544} height={407} src="/img/certificate.png" alt="Image of Certificate"/>
+          </Card>
         </div>
       </div>
     </div>
