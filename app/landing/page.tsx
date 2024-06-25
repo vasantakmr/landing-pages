@@ -10,6 +10,7 @@ import VideoDemo from "@/components/landing/VideoDemo";
 import Mentor from "@/components/landing/Mentor";
 import GetCertified from "@/components/landing/GetCertified";
 import { FAQ } from "@/components/landingpage/faq/faq";
+import { MasterClassFor } from "@/components/landingpage/masterclassfor/MasterClassFor";
 
 export default function LandingPage() {
   return (
@@ -17,6 +18,7 @@ export default function LandingPage() {
       <HeroHighlightDemo />
       <GotPlaced />
       <VideoDemo />
+      <MasterClassFor/>
       {/* <Testimonials /> */}
       <ModulesOverview />
       <Mentor />
@@ -30,8 +32,8 @@ export default function LandingPage() {
           <p>5k+ Students Enrolled</p>
         </div>
         <div>
-          <span className="line-through">12000$</span>
-          <span>6999$</span>
+          <span className="line-through">₹12000</span>
+          <span>  ₹6999</span>
         </div>
         <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
           Shimmer

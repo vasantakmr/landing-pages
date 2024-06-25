@@ -28,7 +28,7 @@ export function FAQ() {
                   <AccordionTrigger className="flex items-center justify-between rounded-md bg-background px-4 py-3 text-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring">
                     {eachFaq.Q}
                   </AccordionTrigger>
-                  <AccordionContent className="px-4 py-3 w-11/12 text-muted-foreground">
+                  <AccordionContent className="px-4 py-3 w-11/12 text-foreground">
                     {eachFaq.A}
                   </AccordionContent>
                 </AccordionItem>
