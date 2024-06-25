@@ -11,9 +11,9 @@ export function Bonuses() {
         </span>
       </div>
       <div className="flex flex-col md:flex-row gap-10 p-6">
-        <Card className="w-80 h-96 border-2 border-dotted border-orange-500 rounded-xl">
+        <Card className="w-80 h-96 border-2 border-dashed border-orange-500 rounded-xl">
           <div className="w-full h-full flex flex-col">
-            <div className="h-1/4 flex w-full justify-center items-center bg-orange-500 rounded-t-xl">
+            <div className="h-1/4 flex w-full justify-center items-center text-background bg-orange-500 rounded-t-xl">
               Bonus 1
             </div>
             <div className="h-5/6 flex w-full justify-center items-center">
@@ -25,23 +25,23 @@ export function Bonuses() {
             </div>
           </div>
         </Card>
-        <Card className="w-80 h-auto border-2 border-dotted border-orange-500 rounded-xl">
+        <Card className="w-80 h-auto border-2 border-dashed border-orange-500 rounded-xl">
           <div className="w-full h-full flex flex-col">
-            <div className="h-1/4 flex w-full justify-center items-center bg-orange-500 rounded-t-xl">
+            <div className="h-1/6 flex w-full justify-center items-center bg-orange-500 text-background rounded-t-xl">
               Bonus 1
             </div>
             <div className="h-5/6 flex w-full justify-center items-center">
               image
             </div>
-            <div className="h-1/4 flex w-full justify-center items-center gap-5 bg-orange-100 rounded-b-xl">
+            <div className="h-1/6 flex w-full justify-center items-center gap-5 bg-orange-100 rounded-b-xl">
               <span className="line-through text-2xl font-semibold">₹7000</span>{" "}
               <span className="text-lg font-bold text-orange-500">Free</span>
             </div>
           </div>
         </Card>
-        <Card className="w-80 h-auto border-2 border-dotted border-orange-500 rounded-xl">
+        <Card className="w-80 h-auto border-2 border-dashed border-orange-500 rounded-xl">
           <div className="w-full h-full flex flex-col">
-            <div className="h-1/4 flex w-full justify-center items-center bg-orange-500 rounded-t-xl">
+            <div className="h-1/6 flex w-full justify-center items-center bg-orange-500 text-background rounded-t-xl">
               Bonus 1
             </div>
             <div className="h-5/6 flex w-full justify-center items-center">
