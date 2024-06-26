@@ -4,8 +4,8 @@ import { Briefcase, GraduationCap } from "lucide-react";
 
 export function MasterClassFor() {
   return (
-    <div className="flex justify-center w-full flex-col items-center gap-3 mt-10">
-      <div className="text-4xl font-bold text-center my-10">
+    <div className="flex justify-center w-full flex-col items-center gap-3 mt-5">
+      <div className="text-4xl lg:text-5xl font-bold text-center my-10">
         Who is this <span className="text-orange-600">MasterClass</span> for?
       </div>
       <div className="flex flex-wrap w-full gap-5 justify-center mt-4">
