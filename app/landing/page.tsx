@@ -11,6 +11,7 @@ import Mentor from "@/components/landing/Mentor";
 import GetCertified from "@/components/landing/GetCertified";
 import { FAQ } from "@/components/landingpage/faq/faq";
 import { MasterClassFor } from "@/components/landingpage/masterclassfor/MasterClassFor";
+import CourseOffering from "@/components/landingpage/courseoffering/CourseOffering";
 
 export default function LandingPage() {
   return (
@@ -18,11 +19,12 @@ export default function LandingPage() {
       <HeroHighlightDemo />
       <GotPlaced />
       <VideoDemo />
+      <CourseOffering />
+      <Bonuses />
       <MasterClassFor />
       {/* <Testimonials /> */}
       {/* <ModulesOverview /> */}
       <Mentor />
-      <Bonuses />
       <GetCertified />
       <FAQ />
       {/* <div className="sticky bottom-0 left-0 h-24 w-full bg-blue-600 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 flex items-center justify-between px-28 z-[1000]">
