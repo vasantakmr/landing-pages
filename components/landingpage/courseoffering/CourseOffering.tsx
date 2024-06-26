@@ -6,27 +6,21 @@ export default function CourseOffering() {
   return (
     <>
       {/* Hero */}
-      <div className="container flex flex-col items-center py-10 lg:py-16">
-        
+      <div className="container flex flex-col items-center py-10 lg:py-16 max-w-7xl">
         <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl">
-            What's In The <span className="text-orange-600">Masterclass?</span>
-            </h1>
-            {/* Grid */}
+          What's In The <span className="text-orange-600">Masterclass?</span>
+        </h1>
+        {/* Grid */}
         <div className="grid md:grid-cols-2 gap-4 mt-10 md:gap-8 xl:gap-20 md:items-center">
           <div>
-                       
             <OfferingList />
-            <div className="mt-3 grid grid-cols-2 gap-x-5">
-              {/* Review */}
-              <p>And the fun part is... we have a lot more to offer.</p>
-              {/* End Review */}
-            </div>
           </div>
           {/* Col */}
           <div className="relative flex flex-col items-center ms-4">
-            <ModulesList/>
-            <Button className="mt-5 w-48" size={"lg"}>View Complete Syllabus</Button>
-
+            <ModulesList />
+            <Button className="mt-5 w-48" size={"lg"}>
+              View Complete Syllabus
+            </Button>
           </div>
           {/* End Col */}
         </div>
