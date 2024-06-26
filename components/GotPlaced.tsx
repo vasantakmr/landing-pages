@@ -80,9 +80,9 @@ const ReviewCard = ({
 
 export const GotPlaced = () => {
   return (
-    <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg py-1">
-      <div className="flex p-2 text-md">
-        See What My Comment Section Looks Like
+    <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg py-6">
+      <div className="flex p-2 text-md font-semibold">
+        What My Comment Section Looks Like
       </div>
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (

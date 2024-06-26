@@ -31,8 +31,13 @@ function GetCertified() {
           </div>
         </div>
         <div>
-          <Card className="w-[544px] h-[386px]">
-            <Image width={544} height={407} src="/img/certificate.png" alt="Image of Certificate"/>
+          <Card className="w-full h-full">
+            <Image
+              width={544}
+              height={407}
+              src="/img/certificate.png"
+              alt="Image of Certificate"
+            />
           </Card>
         </div>
       </div>
