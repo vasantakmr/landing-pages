@@ -11,8 +11,8 @@ function VideoDemo() {
           <h2 className="font-bold text-3xl md:text-4xl lg:text-6xl">
             Overview
           </h2>
-          <p className="md:text-muted lg:text-lg">
-            Let me quickly navigate you through the entire thing once
+          <p className="w-4/5 text-center md:text-muted lg:text-lg">
+            Let me quickly navigate you through the entire Master Class
           </p>
         </div>
         <div className="w-full flex justify-center items-center">

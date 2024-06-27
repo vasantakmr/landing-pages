@@ -110,7 +110,7 @@ export const GotPlaced = () => {
       <div className="flex p-2 text-md font-semibold">
         What My Comment Section Looks Like
       </div>
-      <Marquee pauseOnHover className="[--duration:20s]">
+      <Marquee pauseOnHover className="[--duration:40s]">
         {/* {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))} */}
@@ -118,7 +118,7 @@ export const GotPlaced = () => {
           return <InstaCard key={i} i={i} />;
         })}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:20s]">
+      <Marquee reverse pauseOnHover className="[--duration:40s]">
         {/* {secondRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))} */}

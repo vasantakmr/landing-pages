@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 export function HeroHighlightDemo() {
   return (
     <HeroHighlight>
-      <Card className="rounded-2xl shadow-xl border-none p-10">
+      <Card className="rounded-2xl shadow-xl border-none p-4 pt-10 md:p-10">
         <div className="container md:max-w-7xl md:py-5">
           {/* Grid */}
           <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center text-center md:text-start">
