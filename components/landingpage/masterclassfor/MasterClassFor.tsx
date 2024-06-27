@@ -6,11 +6,13 @@ import { Briefcase, GraduationCap } from "lucide-react";
 export function MasterClassFor() {
   const words = ["Course", "MasterClass"];
   return (
-    <div className="flex justify-center w-full h-full flex-col items-center gap-3 my-20">
+    <div className="flex justify-center w-full h-full flex-col items-center gap-3 my-10">
       <div className="text-4xl font-bold text-center">
         Who Should Join this
         <span className="text-orange-600 font-extrabold">
-          <FlipWords words={words} />
+          {" "}
+          Master Class
+          {/* <FlipWords words={words} /> */}
         </span>
         ?
       </div>

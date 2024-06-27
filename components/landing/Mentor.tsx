@@ -16,7 +16,7 @@ export default function Mentor() {
 
   return (
     <div className="flex h-full justify-center items-center">
-      <div className=" flex justify-center items-center  flex-col md:flex-row max-w-7xl">
+      <div className=" flex justify-center items-center flex-col md:flex-row max-w-7xl gap-6">
         <div className="w-2/5 flex justify-center items-center">
           <Carousel
             plugins={[plugin.current]}
@@ -30,31 +30,7 @@ export default function Mentor() {
                   <div className="p-1">
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <span className="text-4xl font-semibold">
-                          {index + 1} {index + 1} {index + 1} {index + 1}{" "}
-                          {index + 1} {index + 1} {index + 1} {index + 1}{" "}
-                          {index + 1} {index + 1} {index + 1} {index + 1}{" "}
-                          {index + 1} {index + 1} {index + 1} {index + 1}{" "}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}{" "}
-                          {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}{" "}
-                          {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                          {index + 1} {index + 1} {index + 1} {index + 1}
-                        </span>
+                        <span className="text-4xl font-semibold"></span>
                       </CardContent>
                     </Card>
                   </div>

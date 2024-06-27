@@ -40,7 +40,7 @@ export const faqData = [
     A: "The lectures will be available around 8 pm. The help sessions are in the evenings, but the exact times may vary.",
   },
   {
-    Q: "I paid but I didn't get any information or can't access the course!",
+    Q: "I paid but can't access the course!",
     A: 'This might be because you entered the wrong email address during checkout. Send an email to vasant@gurucodes.dev with "ENROLMENT ISSUE C++ DSA" in the subject line. Include your full name, phone number, payment ID, and a screenshot of your payment. Our support team (available from 10 am to 6 pm) will help you within 24 hours.',
   },
 ];
