@@ -25,7 +25,7 @@ export function FAQ() {
             {faqData.map((eachFaq, i) => {
               return (
                 <AccordionItem value={`faq-${i}`} key={`f_${i}`}>
-                  <AccordionTrigger className="flex items-center justify-between rounded-md bg-background px-4 py-3 text-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring">
+                  <AccordionTrigger className="flex items-center justify-between rounded-md bg-background px-2 py-3 text-lg text-left font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring">
                     {eachFaq.Q}
                   </AccordionTrigger>
                   <AccordionContent className="px-4 py-3 w-11/12 text-foreground">

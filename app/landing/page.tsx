@@ -27,19 +27,24 @@ export default function LandingPage() {
       {/* <Mentor /> */}
       <GetCertified />
       <FAQ />
-      {/* <div className="sticky bottom-0 left-0 h-24 w-full bg-blue-600 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 flex items-center justify-between px-28 z-[1000]">
-        <div>
+      <div className="sticky bottom-8 md:bottom-0 left-0 h-24 w-full bg-[#0b091f] bg-clip-padding backdrop-filter flex items-center justify-between px-5 z-[1000] text-white">
+        <div className="hidden md:block">
           <p>DSA Master Class</p>
           <p>5k+ Students Enrolled</p>
         </div>
-        <div>
-          <span className="line-through">₹12000</span>
-          <span> ₹6999</span>
+        <div className="flex justify-between items-center w-full">
+          <div className="flex text-lg gap-1 w-full p-2">
+            <span className="line-through">₹12,000</span>
+            <span className="underline">₹6,999</span>
+          </div>
+          <button className="inline-flex h-16 w-full animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-orange-500 bg-[length:200%_100%] px-6 font-semibold text-white text-xl transition-colors focus:outline-none focus:ring-2">
+            Enroll Now
+          </button>
         </div>
-        <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-          Shimmer
-        </button>
-      </div> */}
+      </div>
+      <div className="md:hidden sticky bottom-0 left-0 h-8 bg-orange-500 flex items-center justify-center z-[1000] text-white">
+        <div>Limited Time Offer - 50% Exclusive Discount</div>
+      </div>
     </div>
   );
 }

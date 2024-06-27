@@ -30,6 +30,7 @@ const config = {
     extends: {
       colors: {
         "neutral-blue": "18181b",
+        "dark-blue": "#090064",
       },
     },
     container: {

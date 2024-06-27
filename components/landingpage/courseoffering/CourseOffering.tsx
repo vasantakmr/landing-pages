@@ -6,8 +6,8 @@ export default function CourseOffering() {
   return (
     <>
       {/* Hero */}
-      <div className="container flex flex-col items-center py-10 lg:py-16 max-w-7xl">
-        <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl">
+      <div className="container flex flex-col items-center py-10 lg:py-16 max-w-7xl ">
+        <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl text-center">
           What's In The <span className="text-orange-600">Masterclass?</span>
         </h1>
         {/* Grid */}

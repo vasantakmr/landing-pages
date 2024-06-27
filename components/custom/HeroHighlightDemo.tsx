@@ -32,7 +32,7 @@ export function HeroHighlightDemo() {
                 <div className="flex flex-col gap-4">
                   <div className="flex gap-2 md:gap-5 font-semibold items-center">
                     <Clapperboard />
-                    <p>160+ Hrs of Pre-Recorded Video Content</p>
+                    <p>160+ Hrs of Pre-Recorded Video</p>
                   </div>
                   <div className="flex gap-2 md:gap-5 font-semibold items-center">
                     <BookOpenCheck />

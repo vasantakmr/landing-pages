@@ -4,7 +4,7 @@ import { Card, CardHeader } from "./ui/card";
 export function Bonuses() {
   return (
     <div className="flex flex-col w-full justify-center items-center gap-7 p-12">
-      <div className="text-5xl font-bold flex justify-center items-center w-full">
+      <div className="text-3xl md:text-4xl lg:text-5xl font-bold flex justify-center text-center items-center w-full">
         <p>
           Unlock bonuses worth{" "}
           <span className="text-orange-600 text-6xl decoration-wavy">

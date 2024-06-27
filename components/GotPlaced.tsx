@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -40,6 +41,8 @@ const reviews = [
   },
 ];
 
+const one = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
 
@@ -78,6 +81,29 @@ const ReviewCard = ({
   );
 };
 
+function InstaCard({ i }: { i: number }) {
+  return (
+    <>
+      <figure
+        className={cn(
+          "relative w-64 h-28 cursor-pointer overflow-hidden rounded-xl border flex justify-center items-center",
+          // light styles
+          "border-gray-950/[.1] bg-white hover:border-gray-800",
+          // dark styles
+          "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
+        )}
+      >
+        <Image
+          width={400}
+          height={67}
+          src={`/img/${i}.jpg`}
+          alt="review"
+        ></Image>
+      </figure>
+    </>
+  );
+}
+
 export const GotPlaced = () => {
   return (
     <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg py-6">
@@ -85,14 +111,20 @@ export const GotPlaced = () => {
         What My Comment Section Looks Like
       </div>
       <Marquee pauseOnHover className="[--duration:20s]">
-        {firstRow.map((review) => (
+        {/* {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
-        ))}
+        ))} */}
+        {one.map((i) => {
+          return <InstaCard key={i} i={i} />;
+        })}
       </Marquee>
       <Marquee reverse pauseOnHover className="[--duration:20s]">
-        {secondRow.map((review) => (
+        {/* {secondRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
-        ))}
+        ))} */}
+        {one.map((i) => {
+          return <InstaCard key={i} i={i + 12} />;
+        })}
       </Marquee>
       <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
       <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
