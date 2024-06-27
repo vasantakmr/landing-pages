@@ -18,10 +18,10 @@ export function HeroHighlightDemo() {
           {/* Grid */}
           <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center text-center md:text-start">
             <div className="mx-auto">
-              <h1 className="scroll-m-20 text-4xl font-extrabold lg:text-5xl">
-                Complete <span className="text-blue-700"> Programming </span>{" "}
-                and <span className="text-blue-700"> Problem Solving </span>{" "}
-                Roadmap
+              <h1 className="scroll-m-20 font-bold text-3xl md:text-4xl lg:text-5xl">
+                Learn to <span className="text-blue-700"> Program </span>{" "}
+                & Solve <span className="text-blue-700"> Problems </span>{" "}
+                in 6 Months 
               </h1>
               <p className="mt-3 font-semibold text-xl text-muted-foreground">
                 Mastering
@@ -50,7 +50,7 @@ export function HeroHighlightDemo() {
               </div>
             </div>
             {/* Col */}
-            <div className="relative">
+            <div className="relative flex flex-col items-center">
               <Image src="/img/img.webp" alt="guru" width={430} height={430} />
               <div className="flex flex-col justify-center items-center">
                 <h3 className="font-bold text-xl">- with Vasanta Kumar</h3>
