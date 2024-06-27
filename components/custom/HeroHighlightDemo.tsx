@@ -50,8 +50,8 @@ export function HeroHighlightDemo() {
               </div>
             </div>
             {/* Col */}
-            <div className="relative ms-4">
-              <Image src="/img/img.webp" alt="guru" width={450} height={450} />
+            <div className="relative">
+              <Image src="/img/img.webp" alt="guru" width={430} height={430} />
               <div className="flex flex-col justify-center items-center">
                 <h3 className="font-bold text-xl">- with Vasanta Kumar</h3>
                 <p className="text-lg ">Founder at Guru Codes | Instagram</p>
