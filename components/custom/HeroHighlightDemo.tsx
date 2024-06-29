@@ -50,7 +50,7 @@ export function HeroHighlightDemo() {
               </div>
             </div>
             {/* Col */}
-            <div className="relative flex flex-col items-center flex flex-col justify-center w-full items-center">
+            <div className="relative flex flex-col items-center justify-center w-full">
               <Image src="/img/img.webp" alt="guru" width={430} height={430} />
               <div className="flex flex-col justify-center items-center">
                 <h3 className="font-bold text-xl">- with Vasanta Kumar</h3>
