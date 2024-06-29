@@ -24,7 +24,7 @@ export default function LandingPage() {
       <MasterClassFor />
       {/* <Testimonials /> */}
       {/* <ModulesOverview /> */}
-      {/* <Mentor /> */}
+      <Mentor />
       <GetCertified />
       <FAQ />
       <div className="sticky bottom-8 md:bottom-0 left-0 h-24 w-full bg-[#0b091f] bg-clip-padding backdrop-filter flex items-center justify-between px-5 z-[1000] text-white">

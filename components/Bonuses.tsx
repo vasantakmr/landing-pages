@@ -1,5 +1,6 @@
 import ShimmerButton from "./landing/ShimmerButton";
 import { Card, CardHeader } from "./ui/card";
+import { LockKeyholeOpen } from "lucide-react";
 
 export function Bonuses() {
   return (
@@ -62,8 +63,30 @@ export function Bonuses() {
           </div>
         </Card>
       </div>
-      <div>
-        <ShimmerButton text="Unlock Bonuses" />
+      <div className="flex justify-center">
+        <button className="inline-flex w-56 h-16 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-background dark:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 gap-3">
+          Unlock Bonuses
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            className="lucide lucide-lock-keyhole-open"
+          >
+            <circle cx="12" cy="16" r="1" />
+            <rect width="18" height="12" x="3" y="10" rx="2" />
+            <path d="M7 10V7a5 5 0 0 1 9.33-2.5" />
+          </svg>
+        </button>
+        {/* <ShimmerButton
+          text={`
+          )}`}
+        /> */}
       </div>
     </div>
   );
