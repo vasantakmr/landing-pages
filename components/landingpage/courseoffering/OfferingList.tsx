@@ -19,99 +19,86 @@ export function OfferingList() {
   return (
     <div className="container py-7 lg:py-12">
       <div className="max-w-4xl mx-auto">
-        {/* Grid */}
         <div className="grid md:grid-cols-2 gap-6 lg:gap-12">
           <div className="space-y-6 lg:space-y-10">
-            {/* Icon Block */}
             <div className="flex">
               <BrainCogIcon className="flex-shrink-0 mt-2 h-8 w-8" />
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Creative minds
+                  Problem Solving
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  We choose our teams carefully. Our people are the secret to
-                  great work.
+                  100+ hours of Course video lectures. C++ fundamentals, data
+                  structures, and algorithms.
                 </p>
               </div>
             </div>
-            {/* End Icon Block */}
-            {/* Icon Block */}
+
             <div className="flex">
               <PackageIcon className="flex-shrink-0 mt-2 h-8 w-8" />
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Effortless updates
+                  300+ problems
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  Benefit from automatic updates to all boards any time you need
-                  to make a change to your website.
+                  We will solve 300+ problems to help you master problem-solving
+                  skills and prepare for high-paying tech careers.
                 </p>
               </div>
             </div>
-            {/* End Icon Block */}
-            {/* Icon Block */}
+
             <div className="flex">
               <ZapIcon className="flex-shrink-0 mt-2 h-8 w-8" />
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Strong empathy
+                  Weekly 4 days Live
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  We&apos;ve user tested our own process by shipping over 1k
-                  products for clients.
+                  This course includes weekly sessions: 2 days for Live
+                  doubt-solving and 2 days for interactive problem-solving.
                 </p>
               </div>
             </div>
-            {/* End Icon Block */}
           </div>
-          {/* End Col */}
+
           <div className="space-y-6 lg:space-y-10">
-            {/* Icon Block */}
             <div className="flex">
               <TrophyIcon className="flex-shrink-0 mt-2 h-8 w-8" />
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Conquer the best
+                  Regular Quizzs
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  We stay lean and help your product do one thing well.
+                  In this 6-month course, you’ll receive regular assignments and
+                  quizzes to practice your skills and get feedback.
                 </p>
               </div>
             </div>
-            {/* End Icon Block */}
-            {/* Icon Block */}
-            <div className="flex">
-              <UsersIcon className="flex-shrink-0 mt-2 h-8 w-8" />
-              <div className="ms-5 sm:ms-8">
-                <h3 className="text-base sm:text-lg font-semibold">
-                  Designing for people
-                </h3>
-                <p className="mt-1 text-muted-foreground">
-                  We actively pursue the right balance between functionality and
-                  aesthetics, creating delightful experiences.
-                </p>
-              </div>
-            </div>
-            {/* End Icon Block */}
-            {/* Icon Block */}
             <div className="flex">
               <ThumbsUpIcon className="flex-shrink-0 mt-2 h-8 w-8" />
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Simple and affordable
+                  Resume/Interview Preparation
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  From boarding passes to movie tickets, there&apos;s pretty
-                  much nothing you can&apos;t do.
+                  This course includes resume building and interview preparation
+                  tips.
                 </p>
               </div>
             </div>
-            {/* End Icon Block */}
+            <div className="flex">
+              <ThumbsUpIcon className="flex-shrink-0 mt-2 h-8 w-8" />
+              <div className="ms-5 sm:ms-8">
+                <h3 className="text-base sm:text-lg font-semibold">
+                  Course Validity
+                </h3>
+                <p className="mt-1 text-muted-foreground">
+                  2 years of course access. This is Valid for 24 months.
+                </p>
+              </div>
+            </div>
           </div>
-          {/* End Col */}
         </div>
-        {/* End Grid */}
       </div>
     </div>
     // <Accordion
@@ -142,8 +129,8 @@ export function OfferingList() {
     //       🎙️ Weekly 4 days live
     //     </AccordionTrigger>
     //     <AccordionContent className="text-base">
-    //       This course includes weekly sessions: 2 days for live doubt solving
-    //       and 2 days for interactive problem-solving.
+    // This course includes weekly sessions: 2 days for live doubt solving
+    // and 2 days for interactive problem-solving.
     //     </AccordionContent>
     //   </AccordionItem>
     //   <AccordionItem value="item-4">
@@ -151,8 +138,8 @@ export function OfferingList() {
     //       📘 Regular quizzes/assignments
     //     </AccordionTrigger>
     //     <AccordionContent className="text-base">
-    //       Regular assignments and quizzes will help you practice your skills and
-    //       receive feedback throughout the course.
+    // Regular assignments and quizzes will help you practice your skills and
+    // receive feedback throughout the course.
     //     </AccordionContent>
     //   </AccordionItem>
     //   <AccordionItem value="item-5">
@@ -160,8 +147,8 @@ export function OfferingList() {
     //       🗓️ 6 Months Course Duration
     //     </AccordionTrigger>
     //     <AccordionContent className="text-base">
-    //       6 months of regular course content, quizzes/assignments, live
-    //       sessions.
+    // 6 months of regular course content, quizzes/assignments, live
+    // sessions.
     //     </AccordionContent>
     //   </AccordionItem>
     //   <AccordionItem value="item-6">
@@ -177,7 +164,7 @@ export function OfferingList() {
     //       🗂️ Resume/Interview Preparation
     //     </AccordionTrigger>
     //     <AccordionContent className="text-base">
-    //       This course includes resume building and interview preparation tips.
+    // This course includes resume building and interview preparation tips.
     //     </AccordionContent>
     //   </AccordionItem>
     // </Accordion>
