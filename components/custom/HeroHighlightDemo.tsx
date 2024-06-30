@@ -30,15 +30,15 @@ export function HeroHighlightDemo() {
               </p>
               <div className="mt-6 lg:mt-10 grid grid-cols-1 gap-x-5 text-sm md:text-lg">
                 <div className="flex flex-col gap-4">
-                  <div className="flex gap-2 md:gap-5 font-semibold items-center">
+                  <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <Clapperboard />
                     <p>160+ Hrs of Pre-Recorded Video</p>
                   </div>
-                  <div className="flex gap-2 md:gap-5 font-semibold items-center">
+                  <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <BookOpenCheck />
                     <p>50 Live Sessions With Vasanta for 6 Months</p>
                   </div>
-                  <div className="flex gap-2 md:gap-5 font-semibold items-center">
+                  <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <Brain />
                     <p>Problem Solving and Live doubts sessions</p>
                   </div>
