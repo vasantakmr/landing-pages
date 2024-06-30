@@ -31,10 +31,6 @@ export default function Pricing() {
           <div className="p-8 sm:p-10 lg:flex-auto">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 flex gap-4">
               Lifetime membership
-              <div className="flex items-center space-x-2">
-                <Switch id="USD" />
-                <Label htmlFor="usd">USD</Label>
-              </div>
             </h3>
             <div className="mt-10 flex items-center gap-x-4">
               <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">

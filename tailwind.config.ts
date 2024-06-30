@@ -82,6 +82,14 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        ripple: {
+          "0%, 100%": {
+            transform: "translate(-50%, -50%) scale(1)",
+          },
+          "50%": {
+            transform: "translate(-50%, -50%) scale(0.9)",
+          },
+        },
         marquee: {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(calc(-100% - var(--gap)))" },
@@ -130,6 +138,7 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+        ripple: "ripple 3400ms ease infinite",
         marquee: "marquee var(--duration) linear infinite",
         shimmer: "shimmer 2s linear infinite",
         grid: "grid 15s linear infinite",

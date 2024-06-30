@@ -13,6 +13,7 @@ import { FAQ } from "@/components/landingpage/faq/faq";
 import { MasterClassFor } from "@/components/landingpage/masterclassfor/MasterClassFor";
 import CourseOffering from "@/components/landingpage/courseoffering/CourseOffering";
 import Pricing from "@/components/landingpage/pricing/Pricing";
+import { NotConvinced } from "@/components/landingpage/convinced/NotConvinced";
 
 export default function LandingPage() {
   return (
@@ -29,9 +30,10 @@ export default function LandingPage() {
       <GetCertified />
       <Pricing />
       <FAQ />
+      <NotConvinced />
       <div className="sticky bottom-8 md:bottom-0 left-0 h-24 w-full bg-[#0b091f] lg:bg-[#140160] bg-clip-padding backdrop-filter flex  px-5 z-[1000] text-white">
-        <div className="max-w-6xl flex items-center">
-          <Card className="h-20 w-40 items-center justify-center rounded-md border"></Card>
+        <div className="max-w-6xl flex items-center w-full justify-between">
+          <Card className=" hidden md:block h-20 w-40 items-center justify-center rounded-md border"></Card>
           <div className="hidden md:block w-44">
             <p className="w-full">DSA Master Class</p>
             <p>5k+ Students Enrolled</p>
