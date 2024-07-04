@@ -52,7 +52,7 @@ export default function LandingPage() {
               <span className="line-through">₹12,000</span>
               <span className="underline">₹6,999</span>
             </div>
-            <button className="inline-flex h-16 w-3/6 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-orange-500 bg-[length:200%_100%] px-6 font-semibold text-white text-xl transition-colors focus:outline-none focus:ring-2">
+            <button className="inline-flex h-16 md:w-3/6 w-full animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-orange-500 bg-[length:200%_100%] px-6 font-semibold text-white text-xl transition-colors focus:outline-none focus:ring-2">
               Enroll Now
             </button>
           </div>
