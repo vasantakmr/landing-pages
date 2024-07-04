@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ShimmerButton from "./landing/ShimmerButton";
 import { Card, CardHeader } from "./ui/card";
 import { LockKeyholeOpen } from "lucide-react";
@@ -16,49 +17,52 @@ export function Bonuses() {
       <div className="flex justify-center flex-wrap gap-10 p-6">
         <Card className="w-80 h-96 border-2 border-dashed border-orange-500 rounded-xl">
           <div className="w-full h-full flex flex-col">
-            <div className="h-1/6 flex w-full justify-center items-center bg-orange-500 text-white rounded-t-xl">
+            <div className="h-1/6 flex w-full font-bold text-lg justify-center items-center bg-orange-500 text-white rounded-t-xl">
               Bonus 1
             </div>
-            <div className="h-5/6 flex w-full justify-center items-center">
-              image
+            <div className="h-5/6 flex w-full justify-center items-center bg-cover flex-col">
+              <h1 className="font-extrabold text-2xl">Ats Resume Building</h1>
+              <Image src="/bonus1.png" alt="bonus1" width={200} height={200} />
             </div>
             <div className="h-1/6 flex w-full justify-center items-center gap-5 bg-orange-100 rounded-b-xl">
               <span className="line-through text-2xl text-black font-semibold">
                 ₹7000
               </span>{" "}
-              <span className="text-lg font-bold text-orange-500">Free</span>
+              <span className="text-2xl font-bold text-orange-500">Free</span>
             </div>
           </div>
         </Card>
         <Card className="w-80 h-96 border-2 border-dashed border-orange-500 rounded-xl">
           <div className="w-full h-full flex flex-col">
-            <div className="h-1/6 flex w-full justify-center items-center bg-orange-500 text-white rounded-t-xl">
+            <div className="h-1/6 font-bold text-lg flex w-full justify-center items-center bg-orange-500 text-white rounded-t-xl">
               Bonus 2
             </div>
-            <div className="h-5/6 flex w-full justify-center items-center">
-              image
+            <div className="h-5/6 flex w-full justify-center items-center flex-col">
+              <h1 className="font-extrabold text-2xl">Interview Preparation</h1>
+              <Image src="/bonus2.png" alt="bonus2" width={200} height={200} />
             </div>
             <div className="h-1/6 flex w-full justify-center items-center gap-5 bg-orange-100 rounded-b-xl">
               <span className="line-through text-2xl text-black font-semibold">
                 ₹7000
               </span>{" "}
-              <span className="text-lg font-bold text-orange-500">Free</span>
+              <span className="text-2xl font-bold text-orange-500">Free</span>
             </div>
           </div>
         </Card>
         <Card className=" w-80 h-96 border-2 border-dashed border-orange-500 rounded-xl">
           <div className="w-full h-full flex flex-col">
-            <div className="h-1/6 flex w-full justify-center items-center bg-orange-500 text-white rounded-t-xl">
+            <div className="h-1/6 flex w-full font-bold text-lg justify-center items-center bg-orange-500 text-white rounded-t-xl">
               Bonus 3
             </div>
-            <div className="h-5/6 flex w-full justify-center items-center">
-              image
+            <div className="h-5/6 flex w-full justify-center items-center flex-col">
+              <h1 className="font-extrabold text-2xl">1:1 MockInterview</h1>
+              <Image src="/bonus3.png" alt="bonus2" width={200} height={200} />
             </div>
             <div className="h-1/6 flex w-full justify-center items-center gap-5 bg-orange-100 rounded-b-xl">
               <span className="line-through text-2xl text-black font-semibold">
                 ₹7000
               </span>{" "}
-              <span className="text-lg font-bold text-orange-500">Free</span>
+              <span className="text-2xl font-bold text-orange-500">Free</span>
             </div>
           </div>
         </Card>
