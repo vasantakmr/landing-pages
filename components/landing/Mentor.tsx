@@ -17,7 +17,7 @@ export default function Mentor() {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
-
+  const images = ["img.HEIC", "img2HEIC.", "img3.HEIC"];
   return (
     // <div className="flex h-full justify-center items-center">
     //   <div className=" flex justify-center items-center flex-col md:flex-row max-w-7xl gap-">
