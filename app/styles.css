@@ -1,0 +1,9 @@
+* {
+  font-family: sans-serif;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 4px;
+  color: rgb(26, 26, 198);
+}
