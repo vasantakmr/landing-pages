@@ -54,8 +54,8 @@ export function OfferingList() {
                   Weekly 4 days Live
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  This course includes weekly sessions: 2 days for Live
-                  doubt-solving and 2 days for interactive problem-solving.
+                  2 days of Live doubt-solving and 2 days of interactive
+                  problem-solving.
                 </p>
               </div>
             </div>

@@ -32,7 +32,7 @@ export function NotConvinced() {
           </button>
         </div>
       </div>
-      <p className="text-center text-sm">
+      <p className="text-center text-sm px-2">
         Have a question? send a message at{" "}
         <span className="font-semibold"> vasant@gurucodes.dev </span> and we'll
         respond as soon as possible.

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css";
+import "../ptstyles.css";
 import Footer from "@/components/landingpage/footer/Footer";
 
 function Privacy() {

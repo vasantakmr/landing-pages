@@ -17,7 +17,8 @@ export default function Mentor() {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
-  const images = ["img.HEIC", "img2HEIC.", "img3.HEIC"];
+  const images = ["img.jpg", "img1.jpg", "img2.jpg"];
+
   return (
     // <div className="flex h-full justify-center items-center">
     //   <div className=" flex justify-center items-center flex-col md:flex-row max-w-7xl gap-">
@@ -85,7 +86,7 @@ export default function Mentor() {
     //     </div>
     //   </div>
     // </div>
-    <div className="container py-24 lg:py-32 max-w-6xl">
+    <div className="container py-10 md:py-24 lg:py-32 max-w-6xl">
       <div className="grid lg:grid-cols-7 gap-6 lg:gap-x-8 lg:items-center">
         <div className="lg:col-span-2 mt-10 lg:mt-0 mx-auto">
           <Carousel
@@ -95,14 +96,14 @@ export default function Mentor() {
             onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
-              {Array.from({ length: 5 }).map((_, index) => (
+              {images.map((img, index) => (
                 <CarouselItem key={index}>
                   <div className="justify-center items-center flex h-full">
                     <Image
                       className="rounded-xl"
                       width={300}
                       height={100}
-                      src="/img/mentordemo.jpg"
+                      src={`/mentor/${img}`}
                       alt="Image Description"
                     />
                   </div>
@@ -113,23 +114,31 @@ export default function Mentor() {
         </div>
         <div className="lg:col-span-5 mx-auto">
           <div className="flex flex-col gap-3 p-2">
-            <h1 className="text-5xl font-bold">Meet your Mentor</h1>
+            <h1 className="md:text-left text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+              Meet your{" "}
+              <span className="md:text-black text-orange-600">Mentor</span>
+            </h1>
             <h4 className="text-lg font-semibold">
-              Vasanta Kumar is speaker and YouTuber who co-founded Think School,
-              with Parsh Kothari, an education startup that generated 4+ Billion
-              video impressions in 24 months.
+              Vasanta Kumar, a software developer and educator, followed a path
+              similar to many aspiring tech enthusiasts. After cracking the GATE
+              exam, completing a degree in Data Analytics at NIT Trichy, and
+              securing a high-paying job at KLA Tencor, Vasanta has been working
+              there for the past 2 years.
             </h4>
             <p>
-              Ganesh has helped 27,000+ students improve their communication to
-              become effective public speakers, great salespeople, YouTubers and
-              successful business people.
+              The journey began with a strong desire to excel in the tech field,
+              just like others. Initially clueless, Vasanta navigated through
+              the challenges, figuring things out independently. With over 100k
+              followers on the Instagram page (mention the page name), Vasanta’s
+              teaching is appreciated by the community. Having personally
+              experienced the entire journey, Vasanta empathizes with students
+              facing coding challenges. This unique perspective allows Vasanta
+              to anticipate and address every aspect of problem-solving,
+              ensuring a comprehensive foundation for learners.
             </p>
             <p>
-              Ganesh’s dedication to education has earned him the title of
-              “Insightful Education Creator of the Year 2023” at the Global
-              Startup Summit 2023. His vision is to make the Indian youth more
-              employable by helping them learn practical and fundamental skills
-              in life.
+              Vasanta is excited to share a comprehensive programming and DSA
+              roadmap to help others achieve their coding dreams!
             </p>
           </div>
           <div className="flex gap-6">
