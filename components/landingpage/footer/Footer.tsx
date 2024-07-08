@@ -6,8 +6,12 @@ export default function Footer() {
   return (
     <div className="flex flex-col justify-center items-center h-40">
       <div className="flex gap-6 items-center pt-3">
-        <Instagram size={20} className="cursor-pointer" />
-        <Youtube size={22} className="cursor-pointer" />
+        <Link href="https://www.instagram.com/gurucodes.dev/">
+          <Instagram size={20} className="cursor-pointer" />
+        </Link>
+        <Link href="https://www.youtube.com/channel/UCABZ54RfQU7TFLOmpiKo3WA/videos">
+          <Youtube size={22} className="cursor-pointer" />
+        </Link>
       </div>
       <div className="w-full gap-12 flex justify-center p-3">
         <div className="cursor-pointer text-slate-300 font-semibold">
