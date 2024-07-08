@@ -51,7 +51,12 @@ export function HeroHighlightDemo() {
             </div>
             {/* Col */}
             <div className="relative flex flex-col items-center justify-center w-full">
-              <Image src="/img/img.webp" alt="guru" width={430} height={430} />
+              <Image
+                src="/img/heroimg.png"
+                alt="guru"
+                width={430}
+                height={430}
+              />
               <div className="flex flex-col justify-center items-center">
                 <h3 className="font-bold text-xl">- with Vasanta Kumar</h3>
                 <p className="text-lg ">Founder at Guru Codes | Instagram</p>

@@ -17,7 +17,7 @@ export default function Mentor() {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
-  const images = ["img.jpg", "img1.jpg", "img2.jpg"];
+  const images = ["img.jpg", "img1.jpg", "img2.jpg", "img3.png", "img4.png"];
 
   return (
     // <div className="flex h-full justify-center items-center">
