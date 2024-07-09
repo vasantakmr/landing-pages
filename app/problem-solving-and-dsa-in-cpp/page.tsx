@@ -37,7 +37,7 @@ export default function LandingPage() {
       <div className="sticky bottom-8 md:bottom-0 left-0 h-24 w-full bg-[#0b091f] lg:bg-[#140160] bg-clip-padding backdrop-filter flex px-5 z-[1000] text-white">
         <div className="flex w-full justify-center items-center">
           <div className="flex items-center w-full justify-between gap-10 max-w-7xl">
-            <div className="flex gap-4 items-center">
+            <div className="flex gap-4 items-center hidden md:flex">
               <Card className=" hidden md:block h-20 w-44 items-center justify-center rounded-md border"></Card>
               <div className="hidden md:block w-52">
                 <p className="w-full font-semibold tracking-wide text-lg">
@@ -54,7 +54,7 @@ export default function LandingPage() {
               <span className="underline">₹7,999</span>
             </div>
             <Link href="https://rzp.io/l/gurucodes-cpp-dsa">
-              <button className="inline-flex h-16 md:w-3/6 w-full animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-orange-500 bg-[length:200%_100%] px-4 font-semibold text-white text-xl transition-colors focus:outline-none focus:ring-2">
+              <button className="inline-flex h-16 md:w-3/6 w-full min-w-40 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-orange-500 bg-[length:200%_100%] px-4 font-semibold text-white text-xl transition-colors focus:outline-none focus:ring-2">
                 Enroll Now
               </button>
             </Link>
