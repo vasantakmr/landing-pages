@@ -36,7 +36,7 @@ export function HeroHighlightDemo() {
                   </div>
                   <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <BookOpenCheck />
-                    <p>100+ Live Sessions With Vasanta for 6 Months</p>
+                    <p>100+ Live Group Sessions With Vasanta for 6 Months</p>
                   </div>
                   <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <Brain />
