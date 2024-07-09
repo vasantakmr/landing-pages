@@ -28,7 +28,7 @@ export function OfferingList() {
                   Problem Solving
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  100+ hours of Course video lectures. C++ fundamentals, data
+                  160+ hours of Course video lectures. C++ fundamentals, data
                   structures, and algorithms.
                 </p>
               </div>
@@ -41,7 +41,7 @@ export function OfferingList() {
                   300+ problems
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  We will solve 300+ problems to help you master problem-solving
+                  Solve 300+ problems to master problem-solving
                   skills and prepare for high-paying tech careers.
                 </p>
               </div>
@@ -69,7 +69,7 @@ export function OfferingList() {
                   Regular Quizzs
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  In this 6-month course, you’ll receive regular assignments and
+                  6-months of regular assignments and
                   quizzes to practice your skills and get feedback.
                 </p>
               </div>
@@ -93,7 +93,7 @@ export function OfferingList() {
                   Course Validity
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  2 years of course access. This is Valid for 24 months.
+                  6 months course duration & 2 years of course access.
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@ export function OfferingList() {
     // >
     //   <AccordionItem value="item-1">
     //     <AccordionTrigger className="hover:text-foreground hover:no-underline">
-    //       🎥 100+ hours of Course Content
+    //       🎥 160+ hours of Course Content
     //     </AccordionTrigger>
     //     <AccordionContent className="text-base">
     //       This course equips you with the essential skills for problem-solving:

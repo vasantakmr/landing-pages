@@ -36,11 +36,11 @@ export function HeroHighlightDemo() {
                   </div>
                   <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <BookOpenCheck />
-                    <p>50 Live Sessions With Vasanta for 6 Months</p>
+                    <p>100+ Live Sessions With Vasanta for 6 Months</p>
                   </div>
                   <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <Brain />
-                    <p>Problem Solving and Live doubts sessions</p>
+                    <p>Live Problem Solving and Doubts Sessions</p>
                   </div>
                 </div>
               </div>

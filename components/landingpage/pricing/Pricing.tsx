@@ -1,6 +1,6 @@
 import { CheckIcon, CircleCheck, MinusIcon } from "lucide-react";
 const includedFeatures = [
-  "100+ Hours of course content",
+  "160+ Hours of course content",
   "300+ Problems Solved",
   "Weekly 2 Live Classes",
   "Weekly 2 Live Problem solving session",
@@ -119,11 +119,11 @@ export default function Pricing() {
         <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 flex gap-4">
-              Lifetime membership
+              What you'll get
             </h3>
             <div className="mt-10 flex items-center gap-x-4">
               <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
-                What’s included
+                What's included
               </h4>
               <div className="h-px flex-auto bg-gray-100" />
             </div>
@@ -150,7 +150,7 @@ export default function Pricing() {
                 </p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <span className="text-5xl font-bold tracking-tight text-gray-900">
-                    ₹6999
+                    ₹7499
                   </span>
                   <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">
                     INR
@@ -163,7 +163,7 @@ export default function Pricing() {
                   Get access
                 </a>
                 <p className="mt-6 text-xs leading-5 text-gray-600">
-                  Invoices and receipts available for easy company reimbursement
+                  You can also pay in installments through credit cards. :-)
                 </p>
               </div>
             </div>

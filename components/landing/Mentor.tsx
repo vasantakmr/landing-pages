@@ -17,7 +17,7 @@ export default function Mentor() {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
-  const images = ["img.jpg", "img1.jpg", "img2.jpg", "img3.png", "img4.png"];
+  const images = ["img.jpg", "img2.jpg", "img3.png", "img4.png"];
 
   return (
     // <div className="flex h-full justify-center items-center">
@@ -162,14 +162,14 @@ export default function Mentor() {
                 alt="linkedin"
               />
               <div className="font-bold text-xl">
-                <NumberTicker value={121} />
+                <NumberTicker value={131} />
                 K+
               </div>
             </Card>
             <Card className="flex flex-col justify-center items-center w-1/4 p-2">
               <Image src="/youtube.png" width={50} height={50} alt="linkedin" />
               <div className="font-bold text-xl">
-                <NumberTicker value={12} />
+                <NumberTicker value={2} />
                 K+
               </div>
             </Card>
