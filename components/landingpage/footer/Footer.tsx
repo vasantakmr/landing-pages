@@ -18,9 +18,6 @@ export default function Footer() {
           <Link href={"/privacy"}>Privacy</Link>
         </div>
         <div className="cursor-pointer text-slate-300 font-semibold">
-          Refund
-        </div>
-        <div className="cursor-pointer text-slate-300 font-semibold">
           <Link href={"/terms"}>Terms</Link>
         </div>
 

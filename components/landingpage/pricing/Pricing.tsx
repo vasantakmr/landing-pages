@@ -2,14 +2,14 @@ import { CheckIcon, CircleCheck, MinusIcon } from "lucide-react";
 const includedFeatures = [
   "160+ Hours of course content",
   "300+ Problems Solved",
-  "Weekly 2 Live Classes",
-  "Weekly 2 Live Problem solving session",
+  "Weekly 2 Live Doubt Solving Sessions",
+  "Weekly 2 Live Problem Solving Sessions",
   "Regular Quizzes",
-  "Live Doubt Sessions",
+  "After Class Doubt Support",
   "Interview Tips",
-  "Resume Preperation",
-  "Mentor support",
-  "24 months Validity",
+  "Resume Preparation",
+  "Mentor Support",
+  "24 Months Validity",
 ];
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
@@ -22,6 +22,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import Link from "next/link";
 
 export default function Pricing() {
   // const planFeatures: PlanFeature[] = [
@@ -112,8 +113,7 @@ export default function Pricing() {
             Simple no-tricks pricing
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-            quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
+            
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
@@ -150,18 +150,18 @@ export default function Pricing() {
                 </p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <span className="text-5xl font-bold tracking-tight text-gray-900">
-                    ₹7499
+                    ₹7999
                   </span>
                   <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">
                     INR
                   </span>
                 </p>
-                <a
-                  href="#"
+                <Link
+                  href="https://rzp.io/l/gurucodes-cpp-dsa"
                   className="mt-10 block w-full rounded-md bg-green-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                 >
                   Get access
-                </a>
+                </Link>
                 <p className="mt-6 text-xs leading-5 text-gray-600">
                   You can also pay in installments through credit cards. :-)
                 </p>

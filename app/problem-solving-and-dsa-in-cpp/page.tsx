@@ -15,6 +15,7 @@ import CourseOffering from "@/components/landingpage/courseoffering/CourseOfferi
 import Pricing from "@/components/landingpage/pricing/Pricing";
 import { NotConvinced } from "@/components/landingpage/convinced/NotConvinced";
 import Footer from "@/components/landingpage/footer/Footer";
+import Link from "next/link";
 
 export default function LandingPage() {
   return (
@@ -49,12 +50,14 @@ export default function LandingPage() {
             </div>
             {/* <div className="flex justify-between items-center w-full"> */}
             <div className="flex text-lg gap-1 w-full p-2 md:text-2xl md:justify-center">
-              <span className="line-through">₹14,999</span>
-              <span className="underline">₹7,499</span>
+              <span className="line-through">₹15,999</span>
+              <span className="underline">₹7,999</span>
             </div>
-            <button className="inline-flex h-16 md:w-3/6 w-full animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-orange-500 bg-[length:200%_100%] px-4 font-semibold text-white text-xl transition-colors focus:outline-none focus:ring-2">
-              Enroll Now
-            </button>
+            <Link href="https://rzp.io/l/gurucodes-cpp-dsa">
+              <button className="inline-flex h-16 md:w-3/6 w-full animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-orange-500 bg-[length:200%_100%] px-4 font-semibold text-white text-xl transition-colors focus:outline-none focus:ring-2">
+                Enroll Now
+              </button>
+            </Link>
           </div>
         </div>
         {/* </div> */}
