@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/ui/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gcodes",
-  description: "Next app",
+  title: "Problem Solving with Gurucodes",
+  description: "Mastering C++ & DSA",
 };
 
 export default function RootLayout({
