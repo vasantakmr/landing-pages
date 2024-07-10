@@ -4,7 +4,7 @@ import { HeroHighlight, Highlight } from "../ui/hero-highlight";
 import Image from "next/image";
 import { Card } from "../ui/card";
 import ShimmerButton from "../landing/ShimmerButton";
-import { Clapperboard } from "lucide-react";
+import { Clapperboard, LandPlot } from "lucide-react";
 import { BookOpenCheck } from "lucide-react";
 import { Brain } from "lucide-react";
 
@@ -42,6 +42,10 @@ export function HeroHighlightDemo() {
                     <Brain />
                     <p>Live Problem Solving and Doubts Sessions</p>
                   </div>
+                  <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
+                    <LandPlot />
+                    <p>Course starts from 19th July, 2024</p>
+                  </div>
                 </div>
               </div>
               <div className="mt-7 gap-3 w-full md:inline-flex hidden lg:block ">
@@ -59,7 +63,7 @@ export function HeroHighlightDemo() {
               />
               <div className="flex flex-col justify-center items-center">
                 <h3 className="font-bold text-xl">- with Vasanta Kumar</h3>
-                <p className="text-lg ">Founder at Guru Codes | Instagram</p>
+                <p className="text-lg ">SWE @ KLA | MTech @ NIT Trichy</p>
               </div>
             </div>
             {/* End Col */}

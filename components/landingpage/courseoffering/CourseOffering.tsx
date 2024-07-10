@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import ModulesList from "./ModulesList";
 import { OfferingList } from "./OfferingList";
+import Link from "next/link";
 
 export default function CourseOffering() {
   return (
@@ -16,9 +17,11 @@ export default function CourseOffering() {
           </div>
           <div className="relative flex flex-col items-center ms-4">
             <ModulesList />
-            <Button className="mt-5 w-48" size={"lg"}>
-              Download Syllabus
-            </Button>
+            <Link href="https://drive.google.com/file/d/1UpQdaAMxv5T_1pMUcULeGBfjRvC9KvW2/view">
+              <Button className="mt-5 w-48" size={"lg"}>
+                Download Syllabus
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
