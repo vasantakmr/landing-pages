@@ -52,8 +52,8 @@ function Terms() {
         </p>
 
         <p>
-          Your Order Cancellation Rights 7 days refund window from the course
-          commencement date on Masterclass ( https://gurucodes.dev/masterclass
+          Your Order Cancellation Rights 10 days refund window from the course
+          commencement date on Masterclass ( https://academy.gurucodes.dev/problem-solving-and-dsa-in-cpp
           ), no questions asked.
         </p>
 

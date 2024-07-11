@@ -12,6 +12,7 @@ import { Linkedin, Instagram, Youtube } from "lucide-react";
 import Image from "next/image";
 
 import NumberTicker from "../magicui/number-ticker";
+import Link from "next/link";
 
 export default function Mentor() {
   const plugin = React.useRef(
@@ -129,7 +130,7 @@ export default function Mentor() {
               The journey began with a strong desire to excel in the tech field,
               just like others. Initially clueless, Vasanta navigated through
               the challenges, figuring things out independently. With over 100k
-              followers on the Instagram page (mention the page name), Vasanta’s
+              followers on the Instagram page <Link href="https://insgtagram.com/gurucodes.dev" className="text-blue-600">@Gurucodes.dev</Link>, Vasanta’s
               teaching is appreciated by the community. Having personally
               experienced the entire journey, Vasanta empathizes with students
               facing coding challenges. This unique perspective allows Vasanta
@@ -149,7 +150,7 @@ export default function Mentor() {
                 height={50}
                 alt="linkedin"
               />
-              <div className="font-bold text-xl">
+              <div className="font-bold text-center text-xl text-nowrap">
                 <NumberTicker value={4} />
                 K+
               </div>
@@ -161,14 +162,14 @@ export default function Mentor() {
                 height={50}
                 alt="linkedin"
               />
-              <div className="font-bold text-xl">
-                <NumberTicker value={131} />
+              <div className="font-bold text-center text-xl text-nowrap">
+                <NumberTicker value={132} />
                 K+
               </div>
             </Card>
             <Card className="flex flex-col justify-center items-center w-1/4 p-2">
               <Image src="/youtube.png" width={50} height={50} alt="linkedin" />
-              <div className="font-bold text-xl">
+              <div className="font-bold text-center text-xl text-nowrap">
                 <NumberTicker value={2} />
                 K+
               </div>
