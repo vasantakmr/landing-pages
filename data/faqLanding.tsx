@@ -43,4 +43,8 @@ export const faqData = [
     Q: "I paid but can't access the course!",
     A: 'This might be because you entered the wrong email address during checkout. Send an email to gurucodestelugu@gmail.com with "ENROLMENT ISSUE C++ DSA" in the subject line. Include your full name, phone number, payment ID, and a screenshot of your payment. Our support team (available from 10 am to 6 pm) will help you within 24 hours.',
   },
+  {
+    Q: "Not able to enroll/pay or have payment issues?",
+    A: "Whatsapp 83330663366. Give us a message, we'll contact back ASAP",
+  },
 ];
