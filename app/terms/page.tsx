@@ -54,23 +54,10 @@ function Terms() {
         <p>
           Your Order Cancellation Rights 10 days refund window from the course
           commencement date on Masterclass ( https://academy.gurucodes.dev/problem-solving-and-dsa-in-cpp
-          ), no questions asked.
+          ) or from the date of user's enrollment whichever is latter, no questions asked.
         </p>
 
-        <p>
-          You can cancel your PRO Membership at any time. If you purchase a
-          subscription that automatically renews, you may cancel the
-          subscription any time before the end of the current billing period,
-          and the cancellation will take effect immediately.
-        </p>
-
-        <p>
-          Lapsed Payment: If payment for a subscription fails, the user account
-          will be downgraded and granted a 7-day grace period to update the
-          payment source. If a successful payment is not made within 7 days, the
-          membership will be fully canceled, and renewal will be subject to
-          current prices.
-        </p>
+        
 
         <h2>Disclaimer</h2>
 
@@ -119,9 +106,8 @@ function Terms() {
         <h2>Governing Law</h2>
         <p>
           Any claim relating to the GuruCodes.dev website shall be governed by
-          the laws of the State of Arizona without regard to its conflict of law
-          provisions. General Terms and Conditions apply to the Use of a Web
-          Site.
+          the laws of the Indian Constitution without regard to its conflict of law
+          provisions. General Terms and Conditions apply to the Use of a Website.
         </p>
       </div>
       <Footer />
