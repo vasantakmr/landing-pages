@@ -38,7 +38,7 @@ export default function LandingPage() {
         <div className="flex w-full justify-center items-center">
           <div className="flex items-center w-full justify-between gap-10 max-w-7xl">
             <div className="flex gap-4 items-center hidden md:flex">
-              <Card className=" hidden md:block h-20 w-44 items-center justify-center rounded-md border"></Card>
+              <Card className=" hidden md:block h-20 w-40 items-center justify-center rounded-md border"> <Image  width={250} height={300} alt="Course thumbnail" src="/img/thumbnail.jpg" /></Card>
               <div className="hidden md:block w-52">
                 <p className="w-full font-semibold tracking-wide text-lg">
                   DSA Master Class
