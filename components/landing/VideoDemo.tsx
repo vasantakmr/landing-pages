@@ -20,9 +20,7 @@ function VideoDemo() {
             className="flex w-4/5 h-64 md:h-[354px] lg:h-[542px] justify-center items-center cursor-pointer"
             // style={{ width: "965px", height: "542px" }}
           >
-            <CardContent>
-              <CirclePlay className="w-24 h-24 lg:w-36 lg:h-36" />
-            </CardContent>
+            <iframe className="w-full h-full" src="https://www.youtube.com/embed/ga8pfKoj0hM?si=zJF7fyYi9I-gRpfF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </Card>
         </div>
         <div className="mt-12">
