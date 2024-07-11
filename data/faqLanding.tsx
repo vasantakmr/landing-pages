@@ -45,6 +45,6 @@ export const faqData = [
   },
   {
     Q: "Not able to enroll/pay or have payment issues?",
-    A: "Whatsapp 83330663366. Give us a message, we'll contact back ASAP",
+    A: "Whatsapp 8333063366. Give us a message, we'll contact back ASAP",
   },
 ];
