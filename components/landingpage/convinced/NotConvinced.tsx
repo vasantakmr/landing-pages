@@ -35,8 +35,8 @@ export function NotConvinced() {
       </div>
       <p className="text-center text-sm px-2">
         Have a question? send a message at{" "}
-        <span className="font-semibold"><Link href="https://api.whatsapp.com/send?phone=918333063366&text=Hi%20%F0%9F%98%80Vasant%2C%0A%0ACourse%20kosam%20chinna%20doubt%20vundi.">Whatsapp: 8333063366</Link> Whatsapp: 8333063366 </span> and
-        we'll respond as soon as possible.
+        <span className="font-semibold text-blue-600"><Link href="https://wa.me/918333063366?text=Hi%20%F0%9F%98%80Vasant%2C%0A%0ACourse%20kosam%20chinna%20doubt%20vundi.">Whatsapp: 8333063366</Link></span> and
+        we'll respond as soon as possible.
       </p>
     </>
   );
