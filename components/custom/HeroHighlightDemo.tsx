@@ -36,7 +36,7 @@ export function HeroHighlightDemo() {
                   </div>
                   <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <BookOpenCheck />
-                    <p>100+ Live Group Sessions With Vasanta for 6 Months</p>
+                    <p>100+ Live Group Sessions for 6 Months</p>
                   </div>
                   <div className="flex gap-2 md:gap-5 font-semibold items-center text-start">
                     <Brain />
@@ -62,7 +62,7 @@ export function HeroHighlightDemo() {
                 height={430}
               />
               <div className="flex flex-col justify-center items-center">
-                <h3 className="font-bold text-xl">- with Vasanta Kumar</h3>
+                <h3 className="font-bold text-xl">- Vasanta Kumar</h3>
                 <p className="text-lg ">SWE @ KLA | MTech @ NIT Trichy</p>
               </div>
             </div>

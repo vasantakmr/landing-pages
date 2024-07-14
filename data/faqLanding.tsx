@@ -5,7 +5,11 @@ export const faqData = [
   },
   {
     Q: "Do I need to learn C first?",
-    A: "Nope! C++ can be your first coding language.",
+    A: "Nope! C++ can be your first coding language. C and C++ are completely different languages.",
+  },
+  {
+    Q: "I want Java With DSA.",
+    A: "For now we'll continue with DSA with C++. In future you can get DSA with JAVA for free if you enroll before 19th July.",
   },
   {
     Q: "Is this only for computer science students?",
@@ -45,6 +49,10 @@ export const faqData = [
   },
   {
     Q: "Not able to enroll/pay or have payment issues?",
+    A: "Whatsapp 8333063366. Give us a message, we'll contact back ASAP",
+  },
+  {
+    Q: "Don't have credit card, and still want to pay in EMIs?",
     A: "Whatsapp 8333063366. Give us a message, we'll contact back ASAP",
   },
 ];
